@@ -1,0 +1,15 @@
+1. Open app and visit
+
+2. Sign up 
+	user type admin or user
+
+3. Login
+	admin login or user login
+
+4. First login as admin and set up the categories , products
+
+5. Then login as user and can see products and categories, make orders with buy products.
+
+6. When user made orders admin can see them on orders
+
+7. For more details whtsapp msg 0712699442

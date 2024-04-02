@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".signup_user">
+
+    <EditText
+        android:id="@+id/Uusername"
+        android:layout_width="299dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#A3A3A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.229"
+        />
+
+    <EditText
+        android:id="@+id/Ucompassword"
+        android:layout_width="296dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="ComfirmPassword"
+        android:textColorHint="#A3A3A3"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561"
+        />
+
+    <EditText
+        android:id="@+id/Uemail"
+        android:layout_width="299dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHint="#A3A3A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
+        />
+
+    <EditText
+        android:id="@+id/Umobileno"
+        android:layout_width="299dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Mobile No"
+        android:textColorHint="#A3A3A3"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394"
+        />
+
+    <EditText
+        android:id="@+id/Upassword"
+        android:layout_width="297dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#A3A3A3"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478"
+        />
+
+    <EditText
+        android:id="@+id/userType"
+        android:layout_width="297dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="User Type admin/ user"
+        android:inputType="textPersonName"
+        android:textColorHint="#A3A3A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.651" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="129dp"
+        android:layout_height="49dp"
+        android:text="Sign up"
+        android:textStyle="bold"
+        android:textSize="100px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <Button
+        android:id="@+id/Ureset"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Reset"
+        android:textColor="#A1A1A1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741" />
+
+    <Button
+        android:id="@+id/Usignup"
+        android:layout_width="191dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#B9EB4D4B"
+        android:text="Sign up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <TextView
+        android:id="@+id/txtCopyright"
+        android:layout_width="235dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="69dp"
+        android:text="Copyright@2024 Sprinkles Bakery.inc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

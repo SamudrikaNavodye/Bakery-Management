@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sprinkles">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="Sprinkles Bakery"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sprinkles">
+        <activity android:name=".BuyProduct"></activity>
+        <activity android:name=".User_Products" />
+        <activity android:name=".User_Order" />
+        <activity android:name=".User_Category" />
+        <activity android:name=".Admin_Add_Product" />
+        <activity android:name=".Admin_Update_Product" />
+        <activity android:name=".Admin_Add_Category" />
+        <activity android:name=".Admin_Update_Category" />
+        <activity android:name=".Admin_Order" />
+        <activity android:name=".Admin_Products" />
+        <activity android:name=".Admin_Category" />
+        <activity android:name=".User_Home" />
+        <activity android:name=".Admin_Home" />
+        <activity android:name=".signup_user" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
