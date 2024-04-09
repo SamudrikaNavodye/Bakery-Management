@@ -37,7 +37,7 @@ public class Admin_Add_Category extends AppCompatActivity {
 
                 if(Id.isEmpty() || Name.isEmpty())
                 {
-                    Toast.makeText(getApplicationContext(),"Boxes are Empty", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Please fill required fields.", Toast.LENGTH_LONG).show();
                 }
                 else{
 

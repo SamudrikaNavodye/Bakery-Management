@@ -55,6 +55,7 @@ public class Login extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), " Admin login Successful" , Toast.LENGTH_LONG).show();
                         Intent Adminhome = new Intent(Login.this, Admin_Home.class);
                         startActivity(Adminhome);
+                        finish();
                     }
 
                     else{
@@ -62,6 +63,7 @@ public class Login extends AppCompatActivity {
                         Intent Userpage = new Intent(Login.this, User_Home.class);
                         //Intent Userpage = new Intent(Login.this, Admin_Home.class);
                         startActivity(Userpage);
+                        finish();
                     }
                 }
                 else {

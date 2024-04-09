@@ -7,7 +7,8 @@ public class Category
     private String CategoryName;
 
     public Category (String categoryId){
-        CategoryId=categoryId;
+
+        this.CategoryId = categoryId;
     }
     public Category(String categoryId, String categoryName){
         CategoryId= categoryId;
@@ -18,18 +19,21 @@ public class Category
 
     }
 
-    public String getCategoryId()
-    {
-        return CategoryId;
-    }
     public void setCategoryId(String categoryId){
         CategoryId=categoryId;
     }
+
+    public String getCategoryId() {
+
+        return CategoryId;
+    }
+    public void setCategoryName(String categoryName) {
+
+        CategoryName = categoryName;
+    }
     public String getCategoryName(){
+
         return CategoryName;
     }
 
-    public void setCategoryName(String categoryName) {
-        CategoryName = categoryName;
-    }
 }
